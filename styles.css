@@ -1,142 +1,138 @@
 #frame1 {
-    background-image: url(image/ANIMACE_ZAVERECKA01.png);
-    background-size: cover; /* Obrázek pokryje celý frame */
-    background-position: center; /* Zarovnej obrázek na střed */
+  background-image: url(image/ANIMACE_ZAVERECKA01.png);
+  background-size: cover; /* Obrázek pokryje celý frame */
+  background-position: center; /* Zarovnej obrázek na střed */
 }
 
 #frame2 {
-    background-image: url(image/ANIMACE_ZAVERECKACKA02.png);
-    background-size: cover; /* Obrázek pokryje celý frame */
-    background-position: center; /* Zarovnej obrázek na střed */
+  background-image: url(image/ANIMACE_ZAVERECKACKA02.png);
+  background-size: cover; /* Obrázek pokryje celý frame */
+  background-position: center; /* Zarovnej obrázek na střed */
 }
 
 #frame3 {
-    background-image: url(image/ANIMACE_ZAVERECKA03.png);
-    background-size: cover; /* Obrázek pokryje celý frame */
-    background-position: center; /* Zarovnej obrázek na střed */
+  background-image: url(image/ANIMACE_ZAVERECKA03.png);
+  background-size: cover; /* Obrázek pokryje celý frame */
+  background-position: center; /* Zarovnej obrázek na střed */
 }
 
 .animation-container {
-
-    position: absolute;
-    width: 800px; /* Nastav šířku podle potřeby */
-    height: 800px; /* Nastav výšku podle potřeby */
-    overflow: hidden; /* Skryj přetečení */
-    top: 150px;
-    right: 250px;
-
+  position: absolute;
+  width: 800px; /* Nastav šířku podle potřeby */
+  height: 800px; /* Nastav výšku podle potřeby */
+  overflow: hidden; /* Skryj přetečení */
+  top: 150px;
+  right: 250px;
 }
 
 .frame {
-    background-color: none;
-    position: absolute;
-    width: 800px;
-    height: 800px;
-    opacity: 1; 
-    transition: opacity 0.5s;
-    align-items: center;
+  background-color: none;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  opacity: 1;
+  transition: opacity 0.5s;
+  align-items: center;
 }
 
-/* Přidání klíčových snímků pro animaci */
 @keyframes fadeIn {
-    0% { opacity: 1; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOut {
-    0% { opacity: 1; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-/* Aktivní snímek bude viditelný a animovaný */
 .frame.active {
-    animation: fadeIn 0.5s forwards; /* Fade in animace */
+  animation: fadeIn 0.5s forwards;
 }
 
 .frame.hidden {
-    animation: fadeOut 0.5s forwards; /* Fade out animace */
+  animation: fadeOut 0.5s forwards;
 }
-
-
-
-
-
 
 body {
-    height: auto;
-    width: 1024px;
-    background-color: #121a1d;
+  height: auto;
+  width: 1024px;
+  background-color: #121a1d;
 }
 
-
 h1 {
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #a5a6a2;
-font-weight: 450;
-font-size: 45px;
-font-display: left;
-position: absolute;
-top: 350px;
-left: 230px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #a5a6a2;
+  font-weight: 450;
+  font-size: 45px;
+  font-display: left;
+  position: absolute;
+  top: 350px;
+  left: 230px;
 }
 
 h2 {
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #a5a6a2;
-font-weight: 150;
-font-size: 30.5px;
-font-display: left;
-position: absolute;
-top: 398px;
-left: 230px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #a5a6a2;
+  font-weight: 150;
+  font-size: 30.5px;
+  font-display: left;
+  position: absolute;
+  top: 398px;
+  left: 230px;
 }
 
 a {
-
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #a5a6a2;
-font-size: 45px;
-text-align: center;
-position:relative;
-text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #a5a6a2;
+  font-size: 45px;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #f78419;
+  color: #f78419;
 }
 
 .omne {
-
-top: 490px;
-left: 347px;
+  top: 490px;
+  left: 347px;
 }
 
 .designs {
-
-top: 485px;
-left: 333px;
+  top: 485px;
+  left: 333px;
 }
 
 .art {
-
-    top: 480px;
-left: 385px;
+  top: 480px;
+  left: 385px;
 }
 
 .kontakt {
-
-top: 475px;
-left: 325px;
+  top: 475px;
+  left: 325px;
 }
 
 img {
-       
-        height: 1000px;
-        width: 1000px;
-        top: 45px;
-        right: 250px;
-        position: absolute;
-    }
+  height: 1000px;
+  width: 1000px;
+  top: 45px;
+  right: 250px;
+  position: absolute;
+}
 
-    a:hover {
-
-        color: #f78419;
-                }
-
+a:hover {
+  color: #f78419;
+}
