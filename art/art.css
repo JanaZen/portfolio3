@@ -22,7 +22,7 @@ h1 {
 position:absolute;
 align-items: center;
 top: 250px;
-right: 560px;
+right: 660px;
 
 }
 
@@ -32,17 +32,17 @@ right: 560px;
     position: absolute;
     align-items: center;
     top: 800px;
-    right: 560px;
+    right: 660px;
 
 }
 
 .hlavnimenu {
 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #a5a6a2;
-        font-weight: 400;
-        font-size: 35px;
+        font-weight: 300;
+        font-size: 20px;
         top: 1400px;
-        right: 615px;
+        right: 660px;
         text-align: center;
         position: absolute;
         height: 700px;
